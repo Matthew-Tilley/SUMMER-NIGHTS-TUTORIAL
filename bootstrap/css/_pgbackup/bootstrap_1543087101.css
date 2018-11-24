@@ -182,8 +182,8 @@ a {
 }
 
 a:hover {
-    color: blue;
-    text-decoration: none;
+    color: #0056b3;
+    text-decoration: underline;
 }
 
 a:not([href]):not([tabindex]) {
@@ -4268,6 +4268,11 @@ input[type="button"].btn-block {
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: none;
 }
 
 .nav-link.disabled {
@@ -9990,9 +9995,4 @@ a.text-dark:focus {
         color: inherit;
         border-color: #dee2e6;
     }
-}
-
-a.nav-link {
-    font-family: Lato;
-    color: #8d9298;
 }
