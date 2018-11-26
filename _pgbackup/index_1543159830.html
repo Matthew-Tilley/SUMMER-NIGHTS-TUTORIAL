@@ -14,26 +14,24 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
     </head>
-    <body>
+    <body style="     font-family: Georgia;display:grid;grid-template-columns:1fr 1fr 1fr 20px 1fr 1fr 100px;grid-template-rows:79px 209px auto auto auto;grid-template-areas:'logo logo logo logo menu menu menu' '. . . . . . .' '. . . . title title .' 'quote quote . . . . .' '. . . . . . .';grid-gap:10px;">
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <div class="text">
+        <img src="http://pinegrow.com/placeholders/img10.jpg" style=" width: 100%; height: 100%; object-fit: cover;grid-area:2 / 1 / 4 / 8;">
+        <div style="grid-area:4 / 4 / 5 / 7;">
             <p>Pines are special.&nbsp; They're some of the oldest living beings on Earth.&nbsp; Did you know some Pine trees are more than 5000 years old - and still growing today?</p>
             <p>We organize unique journeys throughout the world, visiting Pine trees on the way.&nbsp; No mountain is too high for us, no desert too dusty, no snow storm too cold.&nbsp; Our motto is: if Pine trees can survive there, so can we!</p>
             <p>Once we reach Pine trees at our destination, the real adventure begins.&nbsp; We camp next to the trees for days, sometimes weeks, observing every minute details of their exciting lives.&nbsp; In return we gain insights into their long history, daily life and habits - and into our own lives.</p>
         </div>
-        <img src="http://pinegrow.com/placeholders/img10.jpg" class="header-img">
         <h1 style="color: #ffffff;  display: flex; align-items: center; font-family: Abril Fatface; font-size: 3rem;grid-area:2 / 3 / 3 / 7;">Summer Nights, <br>Fragrant Pines</h1>
-        <p class="author">By Barry Forestlight</p>
-        <p class="bigand decoration">
-    &</p>
-        <blockquote class="blockquote quote"> 
+        <p style="color: #ffffff; grid-area: 3 / 3 / 4 / 5; align-self: flex-end; box-shadow: 0px 0px;">By Barry Forestlight</p>
+        <blockquote class="blockquote" style="grid-area: 4 / 2 / 5 / 3;"> 
             <p class="mb-0">We love Pine trees!&nbsp; They're beautiful, strong and they smell great.</p> 
             <footer class="blockquote-footer">Mr. Pinecone</footer>             
         </blockquote>
-        <a class="logo">THE PINE POEMS</a>
-        <ul class="nav menu">
+        <a class="logo" style="grid-area: logo; font-family: Lato; font-size: 2rem; color: #8d7a7a; display: flex; align-items: center; margin-left: 1rem;">THE PINE POEMS</a>
+        <ul class="nav" style="justify-content: flex-end; grid-area: menu; display: flex; align-items: center;">
             <li class="nav-item">
                 <a class="nav-link active" href="#">Home</a>
             </li>
@@ -44,6 +42,8 @@
                 <a class="nav-link" href="#">Competition</a>
             </li>
         </ul>
+        <p style="grid-area: 2 / 2 / 3 / 3; font-size: 15rem; display: flex; align-items: center; color: rgba(26, 11, 11, 0.7);" class="bigand">
+    &</p>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
